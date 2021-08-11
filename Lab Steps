@@ -1,0 +1,34 @@
+Create local repo "Zendrix_Workflow"
+Initialize local repo
+Create website file zendrix.html containing "<h1> THis is our original website code </h1>" to zendrix.html
+
+From master branch create and checkout development branch
+From development branch create feature1 branch
+From development branch create feature2 branch
+
+From master branch create and checkout launchfix branch
+From launchfix branch add another code "<h2> This is a quick launch fix at go-live </h2>" to zendrix.html, add & commit.
+From master branch, merge launchfix branch
+From development branch, merge launchfix branch
+
+Checkout feature1 branch, add another code "<h3> This is our feature1 website code released on May 25th </h3>" to zendrix.html, add & commit.
+Checkout development branch and merge feature1 branch. Resolve conflicts
+Fork development branch (for May 25th release)
+Checkout master branch and merge the forked branch (June 25th release)
+
+From master branch create and checkout apachefix branch
+From apachefix branch add another code "<h4> This is an apache hot fix after May 25th release </h4>" to zendrix.html, add & commit.
+From master branch, merge apachefix branch
+From development branch, merge apachefix branch
+
+Checkout feature2 branch, add another code "<h5> This is our feature2 website code released on June 25th </h5>" to zendrix.html, add & commit.
+Checkout development branch and merge feature2 branch
+Fork development branch (for June 25th release)
+Checkout master branch and merge the forked branch (July 25th release)
+
+# Result
+<h1> THis is our original website code </h1>
+<h2> This is a quick launch fix at go-live </h2>
+<h3> This is our feature1 website code released on May 25th </h3>
+<h4> This is an apache hot fix after May 25th release </h4>
+<h5> This is our feature2 website code released on June 25th </h5>
